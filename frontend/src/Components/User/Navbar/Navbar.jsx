@@ -96,6 +96,37 @@ const Navbar = () => {
                     <ListItemText primary="Home" />
                   </ListItemButton>
                 </ListItem>
+
+                <ListItem>
+                  <ListItemButton
+                    component={Link}
+                    to="/doctor"
+                    sx={{ textAlign: "center" }}
+                  >
+                    <ListItemText primary="Doctors" />
+                  </ListItemButton>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemButton
+                    component={Link}
+                    to="/ambulance-booking"
+                    sx={{ textAlign: "center" }}
+                  >
+                    <ListItemText primary="Ambulance" />
+                  </ListItemButton>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemButton
+                    component={Link}
+                    to="/services"
+                    sx={{ textAlign: "center" }}
+                  >
+                    <ListItemText primary="Services" />
+                  </ListItemButton>
+                </ListItem>
+
                 <ListItem>
                   <ListItemButton
                     component={Link}
@@ -114,34 +145,10 @@ const Navbar = () => {
                     <ListItemText primary="About " />
                   </ListItemButton>
                 </ListItem>
-                <ListItem>
-                  <ListItemButton
-                    component={Link}
-                    to="/doctor"
-                    sx={{ textAlign: "center" }}
-                  >
-                    <ListItemText primary="Doctors" />
-                  </ListItemButton>
-                </ListItem>
-                <ListItem>
-                  <ListItemButton
-                    component={Link}
-                    to="/services"
-                    sx={{ textAlign: "center" }}
-                  >
-                    <ListItemText primary="Services" />
-                  </ListItemButton>
-                </ListItem>
+                
+                
 
-                <ListItem>
-                  <ListItemButton
-                    component={Link}
-                    to="/ambulance-booking"
-                    sx={{ textAlign: "center" }}
-                  >
-                    <ListItemText primary="Ambulance" />
-                  </ListItemButton>
-                </ListItem>
+               
               </List>
 
               <Box sx={{ marginLeft: "auto" }}>

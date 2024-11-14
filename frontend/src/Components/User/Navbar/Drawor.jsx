@@ -21,6 +21,19 @@ const Drawor = () => {
             Home
         </ListItemText>
     </ListItemButton >
+
+    <ListItemButton component={Link} to='/doctor'>
+        <ListItemText>
+            Doctors
+        </ListItemText>
+    </ListItemButton>
+
+    <ListItemButton component={Link} to='/service'>
+        <ListItemText>
+            Service
+        </ListItemText>
+    </ListItemButton>
+
     <ListItemButton component={Link} to='/contact'>
         <ListItemText>
             Contact us
@@ -32,17 +45,9 @@ const Drawor = () => {
         </ListItemText>
     </ListItemButton>
 
-    <ListItemButton component={Link} to='/service'>
-        <ListItemText>
-            Service
-        </ListItemText>
-    </ListItemButton>
+   
 
-    <ListItemButton component={Link} to='/doctor'>
-        <ListItemText>
-            Doctors
-        </ListItemText>
-    </ListItemButton>
+   
 
        </List>
        <Divider/>

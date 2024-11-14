@@ -19,7 +19,7 @@ const user_schema = mongoose.Schema(
     },
     is_admin: {
       type: Boolean,
-      default: false,
+      default: true,
     },
     gender: {
       type: String,

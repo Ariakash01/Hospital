@@ -167,15 +167,7 @@ export default function Cart() {
                 { item?.payment !== "paid"
                      ? (
                            <button
-                           onClick={() => {
-                             // setId(item._id)
-                             // if(id)
-                             // {
-                             //   checkout.show({ amount: item.invoice * 100})
-                             // }
-                             setId(item?._id);
-                             setSelectedInvoice(item?.doctor?.ammount);
-                           }}
+                          
                            style={{
                              backgroundColor: "transparent",
                              border: "none",
@@ -184,7 +176,7 @@ export default function Cart() {
                              padding: 0,
                            }}
                          >
-                           Pay Via Khalti
+                           Pay Via Online
                          </button>
                         )  :( <Typography>paid</Typography>)
                           }
